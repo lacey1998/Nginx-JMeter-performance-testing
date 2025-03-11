@@ -14,14 +14,10 @@ This project focuses on testing the performance of an **Nginx server** under dif
 ---
 
 ## 📂 Project Structure  
-nginx-jmeter-performance-testing/ │── tests/ │ ├── test-throughput.jmx # JMeter test plan for throughput testing
-│ ├── test-type.jmx # JMeter test plan for request types
-│ ├── test-size.jmx # JMeter test plan for payload size
-│ ├── result-throughput.jtl # Results for throughput testing
-│ ├── result-type.jtl # Results for request type testing
-│ ├── result-size.jtl # Results for payload size testing
-│ │── scripts/ │ ├── setup-nginx.sh # Script to configure Nginx
-│ ├── monitor-cpu.sh # Script to capture real-time CPU usage
-│ │── reports/ │ ├── summary-report.md # Performance test report
-│ ├── charts/ # Graphs generated from test results
-│ │── README.md # Project documentation
+- **`tests/`** → Contains JMeter test plans and test results.  
+- **`scripts/`** → Bash scripts for setting up Nginx and monitoring CPU usage.  
+- **`reports/`** → Stores summary reports and visualized test data.  
+- **`configs/`** → Holds configuration files for Nginx and JMeter.  
+- **`logs/`** → Captures system and application logs for debugging.  
+- **`README.md`** → Main documentation file for project overview.  
+- **`PROJECT_STRUCTURE.md`** → This document for maintaining project structure details.  
