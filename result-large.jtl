@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1742000018184,129,Small Payload Request,200,OK,Size Test Group 1-2,text,true,,5243130,207,2,2,http://172.31.1.46/large_file.txt,35,0,26
+1742000018161,161,Small Payload Request,200,OK,Size Test Group 1-1,text,true,,5243130,207,2,2,http://172.31.1.46/large_file.txt,58,0,52
+1742000018379,52,Small Payload Request,200,OK,Size Test Group 1-3,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,4,0,2
+1742000018579,51,Small Payload Request,200,OK,Size Test Group 1-4,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,4,0,3
+1742000018779,45,Small Payload Request,200,OK,Size Test Group 1-5,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,3,0,2
+1742000018980,48,Small Payload Request,200,OK,Size Test Group 1-6,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,6,0,5
+1742000019179,49,Small Payload Request,200,OK,Size Test Group 1-7,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,7,0,5
+1742000019380,45,Small Payload Request,200,OK,Size Test Group 1-8,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,3,0,2
+1742000019582,44,Small Payload Request,200,OK,Size Test Group 1-9,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,3,0,2
+1742000019777,45,Small Payload Request,200,OK,Size Test Group 1-10,text,true,,5243130,207,1,1,http://172.31.1.46/large_file.txt,2,0,1
