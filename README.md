@@ -16,6 +16,7 @@ This repository contains JMeter test plans and results for performance testing o
 
 ## 📂 Project Structure  
 ```
+├── records_pdf_docs/            # Directory that stores project records in PDF 
 ├── LICENSE
 ├── README.md                    # Project Documentation
 ├── jmeter.log                   # JMeter execution logs
