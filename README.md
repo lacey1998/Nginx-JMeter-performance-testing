@@ -14,10 +14,21 @@ This project focuses on testing the performance of an **Nginx server** under dif
 ---
 
 ## 📂 Project Structure  
-- **`tests/`** → Contains JMeter test plans and test results.  
-- **`scripts/`** → Bash scripts for setting up Nginx and monitoring CPU usage.  
-- **`reports/`** → Stores summary reports and visualized test data.  
-- **`configs/`** → Holds configuration files for Nginx and JMeter.  
-- **`logs/`** → Captures system and application logs for debugging.  
-- **`README.md`** → Main documentation file for project overview.  
-- **`PROJECT_STRUCTURE.md`** → This document for maintaining project structure details.  
+├── LICENSE
+├── README.md                  # Project Documentation
+├── jmeter.log                 # JMeter execution logs
+├── test-dynamic-0312.jmx      # JMeter script for dynamic requests
+├── test-size-0312.jmx         # JMeter script for different file sizes
+├── test-static.jmx            # JMeter script for static content
+├── test-user-stress.jmx       # User-based stress testing
+├── test-throughput-stress.jmx # Throughput-based load testing
+├── result-200user-stress.jtl  # Test results for 200 users
+├── result-500user-stress.jtl  # Test results for 500 users
+├── result-700rps-stress.jtl   # Test results for 700 RPS
+├── result-2000rps-stress.jtl  # Test results for 2000 RPS
+├── result-dynamic.jtl         # Test results for dynamic content
+├── result-static.jtl          # Test results for static content
+├── result-small.jtl           # Test results for small file requests
+├── result-medium.jtl          # Test results for medium file requests
+├── result-large.jtl           # Test results for large file requests
+
