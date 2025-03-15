@@ -97,8 +97,7 @@ jmeter -n -t test-throughput-stress.jmx -l result-2000rps-stress.jtl # 2000 RPS
 - At **5000 RPS**, the server struggled, and CPU dropped to **0%**, indicating a possible overload or bottleneck.
 
 ## **Video Demo**
-📺 Watch our performance testing demonstration here: [YouTube Video]([https://www.youtube.com/your_video_link](https://youtu.be/e9FNH-5V7wg))
-
+📺 Watch our performance testing demonstration here: https://youtu.be/e9FNH-5V7wg
 
 ## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
