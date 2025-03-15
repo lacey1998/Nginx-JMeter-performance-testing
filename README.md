@@ -17,22 +17,22 @@ This repository contains JMeter test plans and results for performance testing o
 ## 📂 Project Structure  
 ```
 ├── LICENSE
-├── README.md                  # Project Documentation
-├── jmeter.log                 # JMeter execution logs
-├── test-dynamic-0312.jmx      # JMeter script for dynamic requests
-├── test-size-0312.jmx         # JMeter script for different file sizes
-├── test-static.jmx            # JMeter script for static content
-├── test-user-stress.jmx       # User-based stress testing
-├── test-throughput-stress.jmx # Throughput-based load testing
-├── result-200user-stress.jtl  # Test results for 200 users
-├── result-500user-stress.jtl  # Test results for 500 users
-├── result-700rps-stress.jtl   # Test results for 700 RPS
-├── result-2000rps-stress.jtl  # Test results for 2000 RPS
-├── result-dynamic.jtl         # Test results for dynamic content
-├── result-static.jtl          # Test results for static content
-├── result-small.jtl           # Test results for small file requests
-├── result-medium.jtl          # Test results for medium file requests
-├── result-large.jtl           # Test results for large file requests
+├── README.md                    # Project Documentation
+├── jmeter.log                   # JMeter execution logs
+├── test-dynamic-0312.jmx        # JMeter script for dynamic requests
+├── test-size-0312.jmx           # JMeter script for different file sizes
+├── test-static.jmx              # JMeter script for static content
+├── test-user-stress.jmx         # User-based stress testing
+├── test-throughput-stress.jmx   # Throughput-based load testing
+├── result-200user-stress.jtl    # Test results for 200 users
+├── result-500user-stress.jtl.gz # Compressed Test results for 500 users (view result: zcat result-500user-stress.jtl.gz | head -10)
+├── result-700rps-stress.jtl     # Test results for 700 RPS
+├── result-2000rps-stress.jtl    # Test results for 2000 RPS
+├── result-dynamic.jtl           # Test results for dynamic content
+├── result-static.jtl            # Test results for static content
+├── result-small.jtl             # Test results for small file requests
+├── result-medium.jtl            # Test results for medium file requests
+├── result-large.jtl             # Test results for large file requests
 ```
 ## Setup and Usage
 ### **Prerequisites**
