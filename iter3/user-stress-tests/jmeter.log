@@ -1,0 +1,137 @@
+2025-03-28 11:26:58,917 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-03-28 11:26:58,953 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2025-03-28 11:26:58,953 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2025-03-28 11:26:58,963 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: Version 5.6.3
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: java.version=21.0.6
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: os.name=Linux
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: os.arch=amd64
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: os.version=6.8.0-1025-aws
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: java.awt.headless=true
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: Max memory     =536870912
+2025-03-28 11:26:58,965 INFO o.a.j.JMeter: Available Processors =1
+2025-03-28 11:26:58,983 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-03-28 11:26:58,983 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-03-28 11:26:58,983 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2025-03-28 11:26:58,983 INFO o.a.j.JMeter: user.dir  =/root/test-0326/user-stress-tests
+2025-03-28 11:26:58,983 INFO o.a.j.JMeter: PWD       =/root/test-0326/user-stress-tests
+2025-03-28 11:26:58,987 INFO o.a.j.JMeter: IP: 172.31.15.56 Name: ip-172-31-15-56 FullName: ip-172-31-15-56.us-west-1.compute.internal
+2025-03-28 11:26:58,988 INFO o.a.j.JMeter: user.classpath=../lib
+2025-03-28 11:26:58,988 WARN o.a.j.JMeter: Can't read ../lib
+2025-03-28 11:26:59,008 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/root/test-0326/user-stress-tests/test-static-stress-500-result'
+2025-03-28 11:26:59,017 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-03-28 11:26:59,017 INFO o.a.j.r.d.ReportGenerator: Will only generate report from results file: test-static-stress-500.jtl
+2025-03-28 11:26:59,017 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2025-03-28 11:26:59,019 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-03-28 11:26:59,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-03-28 11:26:59,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-03-28 11:26:59,061 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-03-28 11:26:59,063 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-03-28 11:26:59,063 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-03-28 11:26:59,063 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-03-28 11:26:59,063 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-03-28 11:26:59,063 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-03-28 11:26:59,065 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-03-28 11:26:59,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,073 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-28 11:26:59,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-28 11:26:59,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-03-28 11:26:59,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-03-28 11:26:59,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-28 11:26:59,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-03-28 11:26:59,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-03-28 11:26:59,552 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-03-28 11:26:59,618 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-03-28 11:26:59,626 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-03-28 11:26:59,681 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-03-28 11:27:11,655 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-03-28 11:27:11,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-03-28 11:27:11,658 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-03-28 11:27:11,658 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-03-28 11:27:11,689 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-03-28 11:27:11,694 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsByS2025-03-28 11:27:12,300 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.dashboard.GenerationException: Error while processing samples: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:246) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:485) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:339) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.NormalizerSampleConsumer.stopConsuming(NormalizerSampleConsumer.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:336) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.NormalizerSampleConsumer.stopConsuming(NormalizerSampleConsumer.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:336) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.NormalizerSampleConsumer.stopConsuming(NormalizerSampleConsumer.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:336) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
+Caused by: org.apache.jmeter.report.core.SampleException: Consumer failed with message :Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.NormalizerSampleConsumer.stopConsuming(NormalizerSampleConsumer.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:336) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
+Caused by: org.apache.jmeter.report.core.SampleException: Mismatch between expected number of columns:17 and columns in CSV file:6, check your jmeter.save.saveservice.* configuration or check if line 25711 in 'temp/latencyVsRequest/latencyVsRequest15121970093595161344-0' is complete
+	at org.apache.jmeter.report.core.CsvSampleReader.assertCorrectColumns(CsvSampleReader.java:201) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.core.CsvSampleReader.nextSample(CsvSampleReader.java:185) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.core.CsvSampleReader.readSample(CsvSampleReader.java:213) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.graph.AbstractVersusRequestsGraphConsumer$TimeCountConsumer.stopConsuming(AbstractVersusRequestsGraphConsumer.java:342) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.graph.AbstractVersusRequestsGraphConsumer.stopConsuming(AbstractVersusRequestsGraphConsumer.java:150) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.FilterConsumer.stopConsuming(FilterConsumer.java:111) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.AbstractSampleConsumer.stopProducing(AbstractSampleConsumer.java:241) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.NormalizerSampleConsumer.stopConsuming(NormalizerSampleConsumer.java:125) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource$PrivateProducer.stopProducing(CsvFileSampleSource.java:336) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.produce(CsvFileSampleSource.java:183) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.processor.CsvFileSampleSource.run(CsvFileSampleSource.java:236) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.report.dashboard.ReportGenerator.generate(ReportGenerator.java:244) ~[ApacheJMeter_core.jar:5.6.3]
+	... 4 more
