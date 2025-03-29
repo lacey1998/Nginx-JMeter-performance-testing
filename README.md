@@ -72,7 +72,7 @@ jmeter -n -t test-throughput-stress.jmx -l result-throughput-stress.jtl -e -o th
 ## **Video Demo**
 📺 Watch our performance testing demonstration here: 
 - Iteration2: https://youtu.be/e9FNH-5V7wg
-- Iteration3: [https://youtu.be/hpXxUESHkQI](https://youtu.be/_Vyvhi0ncaA)
+- Iteration3: https://youtu.be/_Vyvhi0ncaA
 
 ## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
