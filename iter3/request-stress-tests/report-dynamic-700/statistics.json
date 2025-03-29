@@ -1,0 +1,34 @@
+{
+  "GET /test.php" : {
+    "transaction" : "GET /test.php",
+    "sampleCount" : 199269,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 0.907823093406405,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 61.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 2.0,
+    "throughput" : 332.8111299468054,
+    "receivedKBytesPerSec" : 66.9522390322675,
+    "sentKBytesPerSec" : 39.32631515972994
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 199269,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 0.907823093406405,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 61.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 2.0,
+    "throughput" : 332.8111299468054,
+    "receivedKBytesPerSec" : 66.9522390322675,
+    "sentKBytesPerSec" : 39.32631515972994
+  }
+}

@@ -1,0 +1,124 @@
+2025-03-29 03:38:52,908 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-03-29 03:38:52,963 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2025-03-29 03:38:52,964 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: Version 5.6.3
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: java.version=21.0.6
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: os.name=Linux
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: os.arch=amd64
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: os.version=6.8.0-1025-aws
+2025-03-29 03:38:52,984 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-03-29 03:38:52,987 INFO o.a.j.JMeter: java.awt.headless=true
+2025-03-29 03:38:52,987 INFO o.a.j.JMeter: Max memory     =536870912
+2025-03-29 03:38:52,987 INFO o.a.j.JMeter: Available Processors =1
+2025-03-29 03:38:53,014 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-03-29 03:38:53,016 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-03-29 03:38:53,016 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2025-03-29 03:38:53,016 INFO o.a.j.JMeter: user.dir  =/root/test-0328
+2025-03-29 03:38:53,016 INFO o.a.j.JMeter: PWD       =/root/test-0328
+2025-03-29 03:38:53,020 INFO o.a.j.JMeter: IP: 172.31.15.56 Name: ip-172-31-15-56 FullName: ip-172-31-15-56.us-west-1.compute.internal
+2025-03-29 03:38:53,020 INFO o.a.j.JMeter: user.classpath=../lib
+2025-03-29 03:38:53,020 WARN o.a.j.JMeter: Can't read ../lib
+2025-03-29 03:38:53,060 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/root/test-0328/report-20MB-10users'
+2025-03-29 03:38:53,067 INFO o.a.j.s.FileServer: Default base='/root/test-0328'
+2025-03-29 03:38:53,070 INFO o.a.j.s.FileServer: Set new base='/root/test-0328'
+2025-03-29 03:38:53,557 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-03-29 03:38:53,652 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-03-29 03:38:53,658 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-03-29 03:38:53,666 INFO o.a.j.s.SaveService: Loading file: test-playload-stress-20MB-10users.jmx
+2025-03-29 03:38:53,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-29 03:38:53,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-29 03:38:53,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-29 03:38:53,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-03-29 03:38:53,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-03-29 03:38:53,766 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-03-29 03:38:53,787 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-03-29 03:38:53,799 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-03-29 03:38:53,799 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: test-playload-stress-20MB-10users.jtl
+2025-03-29 03:38:53,800 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2025-03-29 03:38:53,800 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-03-29 03:38:53,808 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-03-29 03:38:53,812 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-03-29 03:38:53,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-03-29 03:38:53,822 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,822 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,822 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,823 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-03-29 03:38:53,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-29 03:38:53,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-03-29 03:38:53,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-03-29 03:38:53,825 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-03-29 03:38:53,826 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-03-29 03:38:53,826 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-03-29 03:38:53,847 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-03-29 03:38:53,848 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-29 03:38:53,848 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-03-29 03:38:53,862 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-03-29 03:38:53,862 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-03-29 03:38:53,974 INFO o.a.j.r.ClassFinder: Will scan jar /opt/jmeter/lib/ext/jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-03-29 03:38:54,124 INFO o.a.j.r.ClassFinder: Will scan jar /opt/jmeter/lib/ext/jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-03-29 03:38:54,155 INFO o.a.j.JMeter: Running test (1743219534155)
+2025-03-29 03:38:54,194 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Payload Stress Group (10 Users)
+2025-03-29 03:38:54,195 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Payload Stress Group (10 Users).
+2025-03-29 03:38:54,195 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-03-29 03:38:54,195 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=60 delayedStart=false
+2025-03-29 03:38:54,217 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-03-29 03:38:54,217 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-03-29 03:38:59,196 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-1
+2025-03-29 03:39:01,316 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-31-15-56
+2025-03-29 03:39:01,329 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-03-29 03:39:01,331 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-03-29 03:39:01,331 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-03-29 03:39:01,331 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-03-29 03:39:01,331 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-03-29 03:39:01,728 INFO o.a.j.r.Summariser: summary +      1 in 00:00:08 =    0.1/s Avg:   267 Min:   267 Max:   267 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2025-03-29 03:39:05,197 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-2
+2025-03-29 03:39:11,196 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-3
+2025-03-29 03:39:17,195 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-4
+2025-03-29 03:39:23,198 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-5
+2025-03-29 03:39:29,197 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-6
+2025-03-29 03:39:31,627 INFO o.a.j.r.Summariser: summary +     34 in 00:00:30 =    1.1/s Avg:   325 Min:   182 Max:  4283 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
+2025-03-29 03:39:31,628 INFO o.a.j.r.Summariser: summary =     35 in 00:00:37 =    0.9/s Avg:   323 Min:   182 Max:  4283 Err:     0 (0.00%)
+2025-03-29 03:39:35,198 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-7
+2025-03-29 03:39:41,197 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-8
+2025-03-29 03:39:47,197 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-9
+2025-03-29 03:39:53,196 INFO o.a.j.t.JMeterThread: Thread started: Payload Stress Group (10 Users) 1-10
+2025-03-29 03:40:04,019 INFO o.a.j.r.Summariser: summary +      9 in 00:00:32 =    0.3/s Avg: 15349 Min: 10239 Max: 24485 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:40:04,020 INFO o.a.j.r.Summariser: summary =     44 in 00:01:10 =    0.6/s Avg:  3397 Min:   182 Max: 24485 Err:     0 (0.00%)
+2025-03-29 03:40:36,000 INFO o.a.j.r.Summariser: summary +     11 in 00:00:32 =    0.3/s Avg: 24556 Min: 14426 Max: 42720 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:40:36,001 INFO o.a.j.r.Summariser: summary =     55 in 00:01:42 =    0.5/s Avg:  7628 Min:   182 Max: 42720 Err:     0 (0.00%)
+2025-03-29 03:41:01,840 INFO o.a.j.r.Summariser: summary +      9 in 00:00:26 =    0.3/s Avg: 27161 Min: 13544 Max: 57853 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:41:01,841 INFO o.a.j.r.Summariser: summary =     64 in 00:02:08 =    0.5/s Avg: 10375 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:41:31,126 INFO o.a.j.r.Summariser: summary +     11 in 00:00:29 =    0.4/s Avg: 26266 Min: 12954 Max: 40710 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:41:31,127 INFO o.a.j.r.Summariser: summary =     75 in 00:02:37 =    0.5/s Avg: 12706 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:42:00,149 INFO o.a.j.r.Summariser: summary +     12 in 00:00:29 =    0.4/s Avg: 22653 Min: 13127 Max: 32736 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:42:00,151 INFO o.a.j.r.Summariser: summary =     87 in 00:03:06 =    0.5/s Avg: 14078 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:42:33,874 INFO o.a.j.r.Summariser: summary +     10 in 00:00:34 =    0.3/s Avg: 25232 Min: 15975 Max: 45390 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:42:33,874 INFO o.a.j.r.Summariser: summary =     97 in 00:03:40 =    0.4/s Avg: 15228 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:43:33,211 INFO o.a.j.r.Summariser: summary +     22 in 00:00:59 =    0.4/s Avg: 27291 Min: 17833 Max: 49394 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:43:33,212 INFO o.a.j.r.Summariser: summary =    119 in 00:04:39 =    0.4/s Avg: 17458 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:44:01,546 INFO o.a.j.r.Summariser: summary +     11 in 00:00:28 =    0.4/s Avg: 22213 Min: 16682 Max: 27961 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:44:01,546 INFO o.a.j.r.Summariser: summary =    130 in 00:05:07 =    0.4/s Avg: 17860 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:44:32,345 INFO o.a.j.r.Summariser: summary +     12 in 00:00:31 =    0.4/s Avg: 25853 Min: 15118 Max: 46652 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:44:32,347 INFO o.a.j.r.Summariser: summary =    142 in 00:05:38 =    0.4/s Avg: 18536 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:45:03,750 INFO o.a.j.r.Summariser: summary +     11 in 00:00:31 =    0.4/s Avg: 25581 Min: 13828 Max: 43185 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:45:03,751 INFO o.a.j.r.Summariser: summary =    153 in 00:06:10 =    0.4/s Avg: 19042 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:45:31,022 INFO o.a.j.r.Summariser: summary +     10 in 00:00:27 =    0.4/s Avg: 23147 Min: 13976 Max: 39255 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:45:31,023 INFO o.a.j.r.Summariser: summary =    163 in 00:06:37 =    0.4/s Avg: 19294 Min:   182 Max: 57853 Err:     0 (0.00%)
+2025-03-29 03:46:05,560 INFO o.a.j.r.Summariser: summary +     11 in 00:00:35 =    0.3/s Avg: 24915 Min: 14175 Max: 60884 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:46:05,561 INFO o.a.j.r.Summariser: summary =    174 in 00:07:11 =    0.4/s Avg: 19649 Min:   182 Max: 60884 Err:     0 (0.00%)
+2025-03-29 03:46:30,264 INFO o.a.j.r.Summariser: summary +     10 in 00:00:25 =    0.4/s Avg: 26131 Min: 15985 Max: 50100 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2025-03-29 03:46:30,266 INFO o.a.j.r.Summariser: summary =    184 in 00:07:36 =    0.4/s Avg: 20002 Min:   182 Ma
